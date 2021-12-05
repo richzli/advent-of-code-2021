@@ -8,7 +8,7 @@ int main() {
 """
 
 day = int(sys.argv[1])
-fifth = day // 5
+fifth = (day-1) // 5
 folder = f"{fifth*5+1:02}-{(fifth+1)*5:02}"
 cookie = open("session").read()
 

@@ -84,13 +84,6 @@ int main() {
                 ++win;
                 won[idx] = 1;
                 if (win == boards.size()) {
-                    rep(i,0,5) {
-                        rep(j,0,5) {
-                            cout << board[i][j] << " ";
-                        }
-                        cout << endl;
-                    }
-                    cout << idx << " " << sum(board) << " " << i << " ";
                     cout << sum(board) * i;
                 }
             }
