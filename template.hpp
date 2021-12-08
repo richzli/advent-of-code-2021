@@ -19,8 +19,7 @@ typedef map<ll, ll> mll;
 vi rcl() {
     vi nums;
     string s; cin >> s;
-    int pos = 0, oldpos = 0;
-    int maxx = -1;
+    size_t pos = 0, oldpos = 0;
     while ((pos = s.find(",", oldpos)) != string::npos) {
         int num = stoi(s.substr(oldpos, pos - oldpos));
         oldpos = pos + 1;
