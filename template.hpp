@@ -15,6 +15,8 @@ typedef vector<vl> vvl;
 typedef map<int, int> mii;
 typedef map<ll, ll> mll;
 
+#define bound(x, y) ((0 <= (x)) && (0 <= (y)) && ((x) < n) && ((y) < m))
+
 /* read comma-separated line of ints */
 vi rcl() {
     vi nums;
