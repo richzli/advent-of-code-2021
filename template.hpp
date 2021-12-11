@@ -17,6 +17,9 @@ typedef map<ll, ll> mll;
 
 #define bound(x, y) ((0 <= (x)) && (0 <= (y)) && ((x) < n) && ((y) < m))
 
+int dx4[4] = {1, 0, -1, 0}, dy4[4] = {0, 1, 0, -1};
+int dx8[8] = {1, 1, 1, 0, -1, -1, -1, 0}, dy8[8] = {1, 0, -1, -1, -1, 0, 1, 1};
+
 /* read comma-separated line of ints */
 vi rcl() {
     vi nums;
